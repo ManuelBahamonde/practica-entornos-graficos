@@ -1,0 +1,122 @@
+<!-- MANUEL BAHAMONDE - LEGAJO 45699 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ejercicio 1</title>
+
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body>
+    <h1 class="page-title">Ejercicio 1</h1>
+    <ol>
+        <li>
+            <p>
+                <p class="question">Qué es HTML, cuando fue creado, cuáles fueron las distintas versiones y cuál es la última?</p>
+                <br>
+                HTML es el lenguaje de marcado principal de la World Wide Web. Este fue creado en el año 1990 y tuvo distintas versiones a lo largo de su historia
+                <ul>
+                    <li>
+                        <p>HTML</p>
+                    </li>
+                    <li>
+                        <p>HTML3.0. Surgio en 1995 como un intento de extender el HTML, pero fracasó.</p>
+                    </li>
+                    <li>
+                        <p>HTML3.2. Surgió en 1997, dando un paso a un enfoque más pragmático.</p>
+                    </li>
+                    <li>
+                        <p>HTML 4.01. Surgió en 1997, tan solo unos meses después que HTML3.2.</p>
+                    </li>
+                    <li>
+                        <p>XHTML. Surgió en 1998 y fue un equivalente al HTML basado en XML. Tuvo subversiones (1.0 y 2.0)</p>
+                    </li>
+                    <li>
+                        <p>HTML 5.0. Este es el actual, y es el principal lenguaje de la web</p>
+                    </li>
+                </ul>
+            </p>
+        </li>
+        <li>
+            <p class="question">¿Cuáles son los principios básicos que el W3C recomienda seguir para la creación de documentos con HTML?</p>
+            <ul>
+                <li>
+                    <p><p class="list-item-title">Separar Estructura y Presentación </p> 
+                        Al separar la estructura de la presentación 
+                        se reduce el coste de servir a un amplio espectro de plataformas, 
+                        medios, etc. y se facilitan las revisiones del documento.
+                    </p>
+                </li>
+                <li>
+                    <p><p class="list-item-title">Considerar la accesibilidad universal a la Web </p>
+                        Nuestra web puede ser accesible por cualquier persona, incluídas aquellas con discapacidades. Por esto,
+                        se debe considerar como representar documentos en diferentes plataformas (navegadores basados en voz, lectores, etc.)
+                    </p>
+                </li>
+                <li>
+                    <p><p class="list-item-title">Ayudar a los agentes de usuario con la representación incremental </p>
+                        Mediante un diseño cuidadoso de las tablas y haciendo uso de las nuevas características 
+                        de las tablas de HTML, los autores pueden ayudar a los agentes de 
+                        usuario a representar los documentos más rápidamente.
+                    </p>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <p class="question">En las Especificaciones de HTML, ¿cuándo un elemento o atributo se considera desaprobado? ¿y obsoleto?</p>
+            <br>
+            Un elemento o atributo se considera desaprobado cuando existen alternativas con hojas de estilo (CSS), mientras que
+            se considera obsoleto cuando no hay garantía de soporte por parte de un agente de usuario para este.
+        </li>
+        <li>
+            <p class="question">Qué es el DTD y cuáles son los posibles DTDs contemplados en la especificación de HTML 4.01?</p>
+                <br>
+                Una DTD es un documento que define la estructura y sintaxis de un documento XML: los elementos, atributos, 
+                entidades, notaciones, etc, que pueden aparecer, el orden y el número de veces que pueden aparecer, 
+                cuáles pueden ser hijos de cuáles, etc. El procesador XML utiliza la DTD para verificar si un documento 
+                es válido, es decir, si el documento cumple las reglas del DTD.
+                <br>
+                Los DTDs contemplados en HTML 4.01 son:
+                <br>
+                Uso Normal: !DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+                "http://www.w3.org/TR/html4/strict.dtd" <br>
+                Use los siguientes URIs (relativos) para hacer referencia a los DTDs y 
+                definiciones de entidades de esta especificación: <br>
+                "strict.dtd" <br>
+                "loose.dtd" <br>
+                "frameset.dtd" <br>
+                "HTMLlat1.ent" <br>
+                "HTMLsymbol.ent" <br>
+                "HTMLspecial.ent" <br>
+            </p>
+        </li>
+        <li>
+            <p>
+                <p class="question">Qué son los metadatos y cómo se especifican en HTML?</p>
+                <br>
+                Los metadatos son información sobre un documento 
+                <br>
+                En general, la especificación de metadatos implica dos pasos:
+                <ol>
+                    <li>
+                        <p>Declaración de una propiedad y de un valor para esta propiedad. Esto puede hacerse de dos maneras:</p>
+                        <ul>
+                            <li>
+                                <p>Desde dentro de un documento, por medio del elemento META.</p>
+                            </li>
+                            <li>
+                                <p>Desde fuera de un documento, vinculando los metadatos por medio del elemento LINK</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p>Referencia a un perfil en el que se definen la propiedad y sus valores legales. 
+                            Para designar un perfil, se usa el atributo profile del elemento HEAD.</p>
+                    </li>
+                </ol>
+            </p>
+        </li>
+    </ol>
+
+</body>
+</html>
