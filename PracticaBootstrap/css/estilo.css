@@ -1,0 +1,30 @@
+/* Practica 1 Ejercicio 1 */
+.contenedor {
+    background-color: lightgray;
+    box-sizing: border-box;
+}
+.block {
+    padding: 2rem;
+    border:white 3px solid;
+}
+
+.purple {
+    background-color: rgb(166, 125, 167);
+}
+.skin {
+    background-color: rgb(249, 230, 215);
+}
+.pink {
+    background-color: rgb(225, 177, 177);
+}
+
+/* Practica 1 Ejercicio 2 */
+.green {
+    background-color: rgb(104, 204, 131);
+}
+.violet {
+    background-color: rgb(157, 141, 152);
+}
+.blue {
+    background-color: rgb(124, 158, 203);
+}
